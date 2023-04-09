@@ -1,0 +1,349 @@
+Microsoft Windows [Version 10.0.19045.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\aleks>mkdir
+The syntax of the command is incorrect.
+
+C:\Users\aleks>mkdir SI_2023_lab1_213158
+
+C:\Users\aleks>cd SI_2023_lab1_213158
+
+C:\Users\aleks\SI_2023_lab1_213158>git init
+Initialized empty Git repository in C:/Users/aleks/SI_2023_lab1_213158/.git/
+
+C:\Users\aleks\SI_2023_lab1_213158>git remote add origin https://github.com/Anja213158/SI_2023_lab1_213158.git
+
+C:\Users\aleks\SI_2023_lab1_213158>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+C:\Users\aleks\SI_2023_lab1_213158>get commit -m "Initial commit"
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Initial commit"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad README.md
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Initial commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\aleks\SI_2023_lab1_213158>SILab1.java
+'SILab1.java' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\aleks\SI_2023_lab1_213158>type nul > SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git add SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Add java class"
+[master (root-commit) 4346dd8] Add java class
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git add README.md
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Initial commit"
+[master 2b4c424] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\aleks\SI_2023_lab1_213158>git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/Anja213158/SI_2023_lab1_213158.git/' not found
+
+C:\Users\aleks\SI_2023_lab1_213158>git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/Anja213158/SI_2023_lab1_213158.git/' not found
+
+C:\Users\aleks\SI_2023_lab1_213158>git config --global user.email "anjashulajkovska@gmail.com"
+
+C:\Users\aleks\SI_2023_lab1_213158>git config --global user.name "Anja213158"
+
+C:\Users\aleks\SI_2023_lab1_213158>git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/Anja213158/SI_2023_lab1_213158.git/' not found
+
+C:\Users\aleks\SI_2023_lab1_213158>git add .
+
+C:\Users\aleks\SI_2023_lab1_213158>git config --global user.email "anjashulajkovska@gmail.com"
+
+C:\Users\aleks\SI_2023_lab1_213158>git config --global user.name "Anja213158"
+
+C:\Users\aleks\SI_2023_lab1_213158>git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/Anja213158/SI_2023_lab1_213158.git/' not found
+
+C:\Users\aleks\SI_2023_lab1_213158>git push -u origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/Anja213158/SI_2023_lab1_213158.git/' not found
+
+C:\Users\aleks\SI_2023_lab1_213158>git push -u origin master
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Anja213158/SI_2023_lab1_213158.git/'
+
+C:\Users\aleks\SI_2023_lab1_213158>git config --global user.email "anjashulajkovska@gmail.com"
+
+C:\Users\aleks\SI_2023_lab1_213158>git config --global user.name "Anja213158"
+
+C:\Users\aleks\SI_2023_lab1_213158>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 478 bytes | 478.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Anja213158/SI_2023_lab1_213158.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\aleks\SI_2023_lab1_213158>git branch bug1
+
+C:\Users\aleks\SI_2023_lab1_213158>git branch bug2
+
+C:\Users\aleks\SI_2023_lab1_213158>git branch bug3
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout bug1
+Switched to branch 'bug1'
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git add SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Fix wrong loop for reading"
+[bug1 9922b3d] Fix wrong loop for reading
+ 1 file changed, 41 insertions(+)
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout bug2
+Switched to branch 'bug2'
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>noteped SILab1.java
+'noteped' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Add java class"
+On branch bug2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\aleks\SI_2023_lab1_213158>SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Fix wrong loop for reading"
+On branch bug2
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\aleks\SI_2023_lab1_213158>git add SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Fix wrong loop for reading"
+[bug2 67daa13] Fix wrong loop for reading
+ 1 file changed, 41 insertions(+)
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout bug1
+Switched to branch 'bug1'
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git add SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Fix wrong loop for reading"
+On branch bug1
+nothing to commit, working tree clean
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout bug2
+Switched to branch 'bug2'
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git add SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Fix wrong condition in filterOddNumbers"
+[bug2 462d73e] Fix wrong condition in filterOddNumbers
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout bug3
+Switched to branch 'bug3'
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git add SILab1.java
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Fix method sumEvenNumbers"
+[bug3 977ff94] Fix method sumEvenNumbers
+ 1 file changed, 41 insertions(+)
+
+C:\Users\aleks\SI_2023_lab1_213158>git push origin --all
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.32 KiB | 451.00 KiB/s, done.
+Total 12 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/Anja213158/SI_2023_lab1_213158.git
+ * [new branch]      bug1 -> bug1
+ * [new branch]      bug2 -> bug2
+ * [new branch]      bug3 -> bug3
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\aleks\SI_2023_lab1_213158>git push origin --all
+Everything up-to-date
+
+C:\Users\aleks\SI_2023_lab1_213158>git merge bug2
+Updating 2b4c424..462d73e
+Fast-forward
+ SILab1.java | 41 +++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 41 insertions(+)
+
+C:\Users\aleks\SI_2023_lab1_213158>git push origin --all
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Anja213158/SI_2023_lab1_213158.git
+   2b4c424..462d73e  master -> master
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout bug3
+Switched to branch 'bug3'
+
+C:\Users\aleks\SI_2023_lab1_213158>git rebase master
+Auto-merging SILab1.java
+CONFLICT (content): Merge conflict in SILab1.java
+error: could not apply 977ff94... Fix method sumEvenNumbers
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 977ff94... Fix method sumEvenNumbers
+
+C:\Users\aleks\SI_2023_lab1_213158>git push --force origin bug3
+Everything up-to-date
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout master
+error: you need to resolve your current index first
+SILab1.java: needs merge
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout master
+error: you need to resolve your current index first
+SILab1.java: needs merge
+
+C:\Users\aleks\SI_2023_lab1_213158>git merge bug1
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+C:\Users\aleks\SI_2023_lab1_213158>git merge bug1 fast-forwaed merge
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+
+C:\Users\aleks\SI_2023_lab1_213158>git checkout master
+error: you need to resolve your current index first
+SILab1.java: needs merge
+
+C:\Users\aleks\SI_2023_lab1_213158>git log
+commit 462d73ed6d783d61b8728fde137ea5c0a232d139 (HEAD, origin/master, origin/bug2, master, bug2)
+Author: Anja213158 <anjashulajkovska@gmail.com>
+Date:   Sun Apr 9 18:23:09 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 67daa13c6bfbc2092fa836002109c96709b741c1
+Author: Anja213158 <anjashulajkovska@gmail.com>
+Date:   Sun Apr 9 18:19:24 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 2b4c4248427097163d676cfd3100381d71d9c09b
+Author: AnjaShulajkovska <anja.shulajkovska@stydents.finki.ukim.mk>
+Date:   Sun Apr 9 17:34:29 2023 +0200
+
+    Initial commit
+
+commit 4346dd8a5066582dbe3d28f9b181ec8e4acd8795
+Author: AnjaShulajkovska <anja.shulajkovska@stydents.finki.ukim.mk>
+Date:   Sun Apr 9 17:29:33 2023 +0200
+
+    Add java class
+
+C:\Users\aleks\SI_2023_lab1_213158>git add --all
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "Final commit"
+[detached HEAD 8719eee] Final commit
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+
+C:\Users\aleks\SI_2023_lab1_213158>git push origin --all
+Everything up-to-date
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad logs.txt
+
+C:\Users\aleks\SI_2023_lab1_213158>git add logs.txt
+
+C:\Users\aleks\SI_2023_lab1_213158>get commit -m "log"
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "log"
+[detached HEAD 405483c] log
+ 1 file changed, 23 insertions(+)
+ create mode 100644 logs.txt
+
+C:\Users\aleks\SI_2023_lab1_213158>notepad 213158.txt
+
+C:\Users\aleks\SI_2023_lab1_213158>git add 213158.txt
+
+C:\Users\aleks\SI_2023_lab1_213158>git commit -m "213158
+[detached HEAD 147ee8b] 213158
+ 1 file changed, 337 insertions(+)
+ create mode 100644 213158.txt
+
+C:\Users\aleks\SI_2023_lab1_213158>git push origin --all
+Everything up-to-date
+
+C:\Users\aleks\SI_2023_lab1_213158>
